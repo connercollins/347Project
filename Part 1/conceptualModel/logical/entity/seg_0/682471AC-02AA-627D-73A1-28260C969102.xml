@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="682471AC-02AA-627D-73A1-28260C969102" name="Person">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:41:11 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="8349E420-9848-B9A8-CF27-9B1101290D07">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:41:34 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="A8B03E32-4D35-3A74-EC20-69334B8860B7">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:41:56 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="484838AE-17B4-46BB-7F32-2D11845CDD82">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:42:14 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_address" id="A4ABBEDB-397E-6943-01F9-CA54002D0CC8">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:42:26 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zipcode" id="E1EDA3B0-4A53-AEDD-11CD-1DD54811540A">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:42:42 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_phone" id="25224234-282C-FC06-C7DF-7777C88E8DCF">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:42:56 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_citizen" id="816EF5C1-2452-3D35-AB6B-2515DAB4768E">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:43:29 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spouse_id" id="3F95CE1B-57A0-7DC3-6B35-2178B49A6EA0">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:50:46 UTC</createdTime>
+<generatorID>B1253B86-19C2-2545-CD70-B2026770E1B5</generatorID>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8349E420-9848-B9A8-CF27-9B1101290D07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAD7B060-C805-75ED-C6F9-453CCAE26E87" name="Person PK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 02:41:46 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8349E420-9848-B9A8-CF27-9B1101290D07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

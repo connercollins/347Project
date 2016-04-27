@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9F754DB-32B2-22CC-7941-7A4B55486AE2" name="Project">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>66FFE423-4AF9-98AB-D3B4-CB38D2C3B408</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_no" id="2F1B25D2-F651-5AE5-BF5A-44721C1560A5">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>2A13CF18-F329-AB36-2E09-3481834C7D59</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="862B3336-4220-6628-2188-09875B80F1CE">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>BD46D4EC-5D32-A709-874A-90339BA0A3E5</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="91BC5BAF-B673-6F30-619F-C2E1A1E60181">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>3505738E-E73C-37FC-C5BB-35B7E2FC1FBF</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accepted" id="DE25DAF8-DB57-8261-B68A-0388BBFC9D7B">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>F7EAEA73-532C-C7AC-4AF4-0D1FCB7878C2</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_assigned" id="B57FEBBD-A1EC-4302-DD6A-CCE00BA59DDA">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>49607798-CFD6-370C-0E5A-EE98B43024BA</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EFF99F4-6F8D-7F68-7321-8C279B3286E6" referredColumn="37EB4E72-45BC-56EB-9BA7-E7983B8114CA"/>
+</associations>
+</Column>
+<Column name="sub_project_of" id="525BC91C-8C9B-FA33-E6D5-CE4B2BA6B401">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>FC5D88D8-B0A6-4506-8AA8-87C6D2D1538E</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EF4DA26-F16C-00B0-6E3A-EBABA2C3AB20" referredColumn="2F1B25D2-F651-5AE5-BF5A-44721C1560A5"/>
+</associations>
+</Column>
+<Column name="project_manager_id" id="6E3F5177-6028-64AD-7CBC-D069F4EE53D3">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>5DCAA77D-F9A6-6D88-BF0E-975B3D0B36DD</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29EBDC03-E9FD-D884-4727-3451D72C7A46" referredColumn="A6450442-29A3-244A-46CE-679D07E0430A"/>
+</associations>
+</Column>
+<Column name="end_date" id="F3332AA6-BA1C-6E14-D034-774C1C83C5B0">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>6379A105-AA10-9D8D-3AE6-B0B24695D622</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est_person_hours" id="A8A2E40D-F821-AAE6-1716-6D6FA5CEE214">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>4186EBFF-393A-A4D9-F691-1EA46B14054D</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_active" id="CCC3BFA4-9EBC-1BD2-101B-FB595B0F5B9E">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>B0B2C687-7502-5A87-7105-6A0287918CA9</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E8FE059-3FD1-C3D2-D6E1-6481B734062E" name="Project_PK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>1EA196E1-7255-1519-92DD-29A63FF670D7</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F1B25D2-F651-5AE5-BF5A-44721C1560A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5049224E-A1E6-962A-27BD-8ADB423DE127" name="Project_Person_FK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>4D56CF83-A1C4-E9D9-8E74-B823C5DAEA23</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E3F5177-6028-64AD-7CBC-D069F4EE53D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9898DF23-FD49-FDB9-95F0-8FDAA2F679DB" name="Project_Department_FK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>C94E3949-0939-32A7-7B2E-F9EE7C494610</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B57FEBBD-A1EC-4302-DD6A-CCE00BA59DDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B52F434E-3C60-4F30-96A5-B079A85557EE" name="Project_Project_FK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:26:48 UTC</createdTime>
+<generatorID>4CE4E3BF-1A30-9DA2-40D7-92415EFD5A71</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="525BC91C-8C9B-FA33-E6D5-CE4B2BA6B401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

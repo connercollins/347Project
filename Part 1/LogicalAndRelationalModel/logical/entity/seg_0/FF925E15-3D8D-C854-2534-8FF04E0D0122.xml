@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF925E15-3D8D-C854-2534-8FF04E0D0122" name="person_child">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:13:35 UTC</createdTime>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<engineerTo>
+<item key="D78AFBFD-762C-7FC3-780A-33C8803E62E0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="786E7929-711C-1FCF-9DB8-624B601F7046">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:14:18 UTC</createdTime>
+<generatorID>78866784-40A7-8558-35DA-08AD43F885A5</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<engineerTo>
+<item key="D78AFBFD-762C-7FC3-780A-33C8803E62E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8349E420-9848-B9A8-CF27-9B1101290D07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person_id1" id="7E4B718B-D86B-BA09-E651-275E7D35BE10">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:15:07 UTC</createdTime>
+<generatorID>ED8FB4BC-B1DB-AAED-F82B-7FDF63416414</generatorID>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<engineerTo>
+<item key="D78AFBFD-762C-7FC3-780A-33C8803E62E0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8349E420-9848-B9A8-CF27-9B1101290D07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="914C4EDC-97EA-3EB2-31DB-220C83FF0A4A" name="person_child PK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:14:04 UTC</createdTime>
+<ownerDesignName>RelationalModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D78AFBFD-762C-7FC3-780A-33C8803E62E0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

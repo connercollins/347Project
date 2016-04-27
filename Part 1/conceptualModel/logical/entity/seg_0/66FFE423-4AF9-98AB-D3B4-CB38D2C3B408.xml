@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66FFE423-4AF9-98AB-D3B4-CB38D2C3B408" name="Project">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 03:34:43 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_no" id="2A13CF18-F329-AB36-2E09-3481834C7D59">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 03:34:49 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_title" id="3505738E-E73C-37FC-C5BB-35B7E2FC1FBF">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 03:35:03 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accepted" id="3B777361-D077-4A13-56C2-9F1EA4E82055">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-04-18 16:06:24 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_manager" id="E119F88A-205B-6E1A-4587-A56ADF08311F">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 03:54:15 UTC</createdTime>
+<generatorID>8C1EDC5C-6EB5-7667-9BD2-A971E8256D71</generatorID>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8349E420-9848-B9A8-CF27-9B1101290D07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="depertment_assigned" id="49607798-CFD6-370C-0E5A-EE98B43024BA">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 04:02:20 UTC</createdTime>
+<generatorID>C94E3949-0939-32A7-7B2E-F9EE7C494610</generatorID>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AA0F956F-3DB0-424A-8A74-612FB71F1E17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sub_project_of" id="FC5D88D8-B0A6-4506-8AA8-87C6D2D1538E">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 04:04:12 UTC</createdTime>
+<generatorID>4CE4E3BF-1A30-9DA2-40D7-92415EFD5A71</generatorID>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2A13CF18-F329-AB36-2E09-3481834C7D59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EA196E1-7255-1519-92DD-29A63FF670D7" name="Project PK">
+<createdBy>connerc9</createdBy>
+<createdTime>2016-03-28 03:35:02 UTC</createdTime>
+<ownerDesignName>conceptualModel</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A13CF18-F329-AB36-2E09-3481834C7D59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
