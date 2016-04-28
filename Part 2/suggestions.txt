@@ -1,0 +1,9 @@
+Suggestions for Enhancement and bugs:
+- Automatically choose the correct type for inserts
+- More helpful errors 
+- Unique constraints e.g. don't allow duplicate ids
+- Retrieving from multiple relationships can cause 
+an array index out of bounds exception 
+- Editing and deleting entries in the DB 
+- A different framework could be better suited to 
+the implementation of SIM e.g. Django 
